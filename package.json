@@ -1,0 +1,19 @@
+{
+  "name": "xtech",
+  "version": "1.0.0",
+  "description": "tests for xtech ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "saadallah med amir",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.11",
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6"
+  }
+}

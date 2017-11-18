@@ -1,0 +1,28 @@
+<h2> Test 4 <small> func caller watcher </small></h2>
+<div class="panel panel-default">
+  <div class="panel-body">
+    <p>
+    </p>
+    <div class="row text-center">
+
+          <label>the code of the callback passed in f4 args</label>
+          <code>
+            function alerting ()
+            {
+              alert("wohho finnaly called");
+            }
+          </code>
+
+      <br>
+      <div class="alert alert-info">
+        you have to fire the first call (click the button). after that the function will wait for 4s to call the callback function . if you keep calling f4 (from the button) you can see that the callback will be never called . and if you stop calling f4 it will run the callback after 4s 
+      </div>
+      <div class="alert alert-danger">
+        i have change the call time from 400ms to 4000ms to give you the possibilty to call f4
+      </div>
+      <button type="button" class="btn btn-primary" name="button" ng-click="f4(alerting)">call the function f4 </button><br>
+      <small>then i will wait for an other 4000 ms to call the callback in the arg </small>
+    </div>
+    <hr>
+  </div>
+</div>

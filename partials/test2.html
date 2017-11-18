@@ -1,0 +1,32 @@
+<h2> Test2 <small> how match b existe in a </small></h2>
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="row text-center">
+      <div class="form-inline">
+        <div class="form-group">
+          <label>input A</label>
+          <input type="text" class="form-control" name="inp_a" value="" ng-model="inp_temp_a">
+        </div>
+        <button type="button" class="btn btn-primary" name="button" ng-click="add('a',inp_temp_a)">Add to array a</button>
+         array a = {{inp_a}} 
+      </div>
+      <br>
+      <div class="form-inline">
+        <div class="form-group">
+          <label>input B</label>
+          <input type="text" class="form-control" name="inp_b" value="" ng-model="inp_temp_b">
+        </div>
+        <button type="button" class="btn btn-primary" name="button" ng-click="add('b',inp_temp_b)">Add to array b</button>
+         array b = {{inp_b}}
+      </div>
+      <br>
+      <button type="button" class="btn btn-primary" name="button" ng-click="run()">Resolve</button>
+    </div>
+    <hr>
+    <div class="row text-center">
+      <p>
+        {{output}}
+      </p>
+    </div>
+  </div>
+</div>
